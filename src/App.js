@@ -6,12 +6,7 @@ const  App = () => {
   return (
     <div className="App">
       <div>This is a nav bar</div>
-      <ul>
-          <li><Link to="/create/tenant">create tenant</Link></li>
-          <li><Link to="/update/tenant">update tenant</Link></li>
-          <li><Link to="/create/tenant">create apartment</Link></li>
-          <li><Link to="/update/tenant">update apartment</Link></li>
-      </ul>
+
       <HashRouter basename="/">
         <div>
           <ul>
